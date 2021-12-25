@@ -11,7 +11,7 @@ https://github.com/Jrohy/multi-v2ray
 有些都已经是现成的，整合了一下
 
 ## 更新日志
-
+* 2021年12月25日：更改了nginx配置里面的https端口, 注意申请证书的话，一定要开启port 80, https的端口随意
 * 2020年4月22日：增加了input.sh,用来快速更改需要的参数
 * 2020年4月17日: 增加了bitwarden，speedtest测速时候的上传问题还是没有解决。
 * 2020年4月9日：增加php7.2-fpm, 使用speedtest，使用 Jrohy/multi-v2ray
