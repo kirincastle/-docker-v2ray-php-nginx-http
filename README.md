@@ -43,8 +43,8 @@ https://www.v2rayssr.com/bbr4in1.html
 * 安装
 
 ```
-$ curl -fsSL https://get.docker.com -o get-docker.sh
-$ sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
 ```
 
 **注：** 这一步如果是CENTOS 8，可能会出现 `requires containerd.io >= 1.2.2-3错误` -> [解决办法](https://www.4spaces.org/docker-ce-install-containerd-io-error/)。
@@ -70,11 +70,11 @@ systemctl enable docker
 3. 安装`docker-compose`
 
 ```
-$  curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-$ chmod +x /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
 
-$ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
 4. 安装git并clone代码
